@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'Gabarito', cursive;
+}
+
+header, section, footer {
+	padding: 40px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+	margin: 24px 0;
+}
+
+.secao-principal {
+	background-image: url("https://images.unsplash.com/photo-1529917365646-d9b0d968d713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2974&q=80");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	height: 100vh;
+	text-align: center;
+	width: 100%;
+}
+
+.foto {
+	border-radius: 50%;
+	border: dotted 5px lightgreen;
+	margin: 30px;
+}
+
+.descricao {
+	margin-top: 40px;
+}
+
+.subtitulo {
+	margin: 30px;
+}
+
+.secao-projetos {
+	background: lightgreen;
+	color: darkgreen;
+}
+
+.projetos {
+	margin: 40px;
+}
+
+.projeto {
+	margin: 30px 0;
+}
+
+.btn {
+	background: green;
+	border-radius: 5px;
+	color: white;
+	display: inline-block;
+	margin: 10px;	
+	padding: 5px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: darkgreen;
+}
+
+.subtitulo-2 {
+	margin: 10px 0;
+}
+
+footer {
+	color: darkgreen;
+}
+
+.links {
+	display: flex;
+	justify-content: space-around;
+}
+
+.link {
+	color: darkgreen;
+	padding: 6px;
+	text-decoration: underline;
+}
+
+.link:hover {
+	background-color: lightgreen;
+	text-decoration: none;
+}
